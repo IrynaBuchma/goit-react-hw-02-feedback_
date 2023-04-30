@@ -1,0 +1,22 @@
+.btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 12px 25px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 10px;
+    border-style: none;
+    background-color: rgb(90, 62, 201);
+    cursor: pointer;
+    color: aliceblue;
+}
+
+.btn:not(:last-child) {
+    margin-right: 20px;
+  }
+
+.btn:hover {
+    color: black;
+    background-color: rgb(52, 215, 196);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.85);
+  }
